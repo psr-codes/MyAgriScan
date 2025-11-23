@@ -1,0 +1,6 @@
+{
+  "/about/page": "app/about/page.js",
+  "/api/diagnose/route": "app/api/diagnose/route.js",
+  "/api/get-description/route": "app/api/get-description/route.js",
+  "/page": "app/page.js"
+}
