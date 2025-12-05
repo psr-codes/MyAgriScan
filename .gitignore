@@ -8,8 +8,7 @@ backend/venv/
 backend/__pycache__/
 .env
 .DS_Store
-
-
+ 
 /.pnp
 .pnp.*
 .yarn/*
@@ -47,3 +46,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+**/.next/
