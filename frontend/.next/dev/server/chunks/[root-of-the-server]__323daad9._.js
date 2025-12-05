@@ -59,7 +59,7 @@ async function POST(request) {
         }, {
             status: 400
         });
-        const apiKey = ("TURBOPACK compile-time value", "AIzaSyBKHhJTfOloGTVOR1UaWZtFvZ6A7qhXl-A");
+        const apiKey = ("TURBOPACK compile-time value", "AIzaSyArZi9qpwGGQp-7Y7r7J4fgqvluHB1G9SY");
         if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
         ;
         const rawModel = process.env.GEMINI_MODEL || 'gemini-2.0-flash';

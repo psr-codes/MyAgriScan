@@ -63,7 +63,7 @@ async function POST(request) {
         }
         // 1. Send image to your FastAPI Backend for classification
         // Prefer the public NEXT env var (used by the client) but fall back to BACKEND_URL or localhost
-        const rawBackend = ("TURBOPACK compile-time value", "http://localhost:8000") || process.env.BACKEND_URL || "http://127.0.0.1:8000";
+        const rawBackend = ("TURBOPACK compile-time value", "https://agri-scan-backend-c4om.onrender.com") || process.env.BACKEND_URL || "http://127.0.0.1:8000";
         const backendUrl = rawBackend.replace(/\/$/, '');
         // Create a new FormData for the backend request
         const backendFormData = new FormData();

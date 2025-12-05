@@ -186,7 +186,7 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title='Plant Disease Classifier API', lifespan=lifespan)
 
-app.add_middlewfare(
+app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"], # In production, replace "*" with your specific Frontend URL=["*"],
     allow_credentials=True,
